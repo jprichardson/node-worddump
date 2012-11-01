@@ -1,0 +1,32 @@
+{
+  "name": "worddump",
+  "version": "0.0.1",
+  "description": "Dump data from WordPress.",
+  "homepage": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "wordpress",
+    "export",
+    "dump"
+  ],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "xmlrpc": "~1.0.2"
+  },
+  "devDependencies": {},
+  "main": "./lib/worddump.js",
+  "scripts": {
+    "test": "mocha test"
+  }
+}
